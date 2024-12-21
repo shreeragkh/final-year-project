@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+
+
+
+.promp-box{
+    display: flex;
+    width: 99%;
+    height: 86px;
+    padding: 8px 31px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 44px;
+    border: 3px solid #125FDE;
+    background: #EEE;
+    position: fixed;
+    margin-bottom: 3px;
+    bottom:8px;
+    left: 50%;
+    transform: translate(-50%);
+    box-sizing: border-box;
+
+}
+.promp-text{
+    color: #000;
+    font-family: 'Poppins' ;
+    font-size: 33.18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+    .promp-box {
+        height: 60px;
+        padding: 6px 20px;
+    }
+
+    .promp-text {
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .promp-box {
+        height: 70px;
+        padding: 7px 25px;
+    }
+
+    .promp-text {
+        font-size: 25px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .promp-box {
+        height: 86px;
+        padding: 8px 31px;
+    }
+
+    .promp-text {
+        font-size: 33.18px;
+    }
+}
