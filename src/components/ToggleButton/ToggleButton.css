@@ -1,0 +1,79 @@
+.toggle-button{
+    width: 133px;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 98px;
+    background: #4D7FFD;
+    margin: 22px 35px auto;
+    display: flex;
+    float: right;
+    overflow: hidden;
+}
+.button{
+    width: 57px;
+    height: 52px;
+    background-color: white;
+    border-radius: 100px;
+    margin: 8px 67px 8px 9px;
+}
+.button img{
+    margin: 7px 8px 8px 8px;
+    object-fit: contain;
+}
+
+
+@media (max-width: 600px) {
+    .toggle-button {
+        width: 100px;
+        height: 50px;
+        margin: 15px 20px auto;
+    }
+
+    .button {
+        width: 40px;
+        height: 35px;
+        margin: 5px 50px 5px 5px;
+    }
+
+    .button img {
+        margin: 5px 5px 5px 5px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .toggle-button {
+        width: 120px;
+        height: 60px;
+        margin: 18px 30px auto;
+    }
+
+    .button {
+        width: 50px;
+        height: 45px;
+        margin: 6px 60px 6px 6px;
+    }
+
+    .button img {
+        margin: 6px 6px 6px 6px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .toggle-button {
+        width: 133px;
+        height: 68px;
+        margin: 22px 35px auto;
+    }
+
+    .button {
+        width: 57px;
+        height: 52px;
+        margin: 8px 67px 8px 9px;
+    }
+
+    .button img {
+        margin: 7px 8px 8px 8px;
+    }
+}
