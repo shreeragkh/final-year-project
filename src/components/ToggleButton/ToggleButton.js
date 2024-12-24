@@ -1,17 +1,16 @@
-import React from 'react'
-import './ToggleButton.css'
-import sunDim from '../../assets/SunDim.png'
+import React from 'react';
+import './ToggleButton.css';
+import sunDim from '../../assets/SunDim.png';
+import moon from '../../assets/Moon.png';
 
-function ToggleButton() {
+function ToggleButton({ onClick , darktheme}) {
   return (
-    <div>
-      <div className="toggle-button">
-        <div className="button">
-          <img src={sunDim} alt="sunDim"/>
-        </div>
+    <div className="toggle-button" onClick={onClick}>
+      <div className="button">
+        <img src={darktheme ? moon : sunDim} alt="sunDim" />
       </div>
     </div>
-  )
+  );
 }
 
-export default ToggleButton
+export default ToggleButton;

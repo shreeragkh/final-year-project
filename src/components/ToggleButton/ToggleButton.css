@@ -8,6 +8,8 @@
     display: flex;
     float: right;
     overflow: hidden;
+    cursor: pointer;
+    border-color: #4D7FFD;
 }
 .button{
     width: 57px;
@@ -15,6 +17,7 @@
     background-color: white;
     border-radius: 100px;
     margin: 8px 67px 8px 9px;
+    cursor: pointer;
 }
 .button img{
     margin: 7px 8px 8px 8px;

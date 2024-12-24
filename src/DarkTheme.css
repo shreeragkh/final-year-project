@@ -1,0 +1,59 @@
+body .dark-theme {
+    background-color: black;
+}
+
+.dark-theme .navbar {
+    background-color: black;
+}
+
+.dark-theme .textbox {
+    background: black ;
+    border-color: black;
+}
+
+.dark-theme .body{
+    background: black;
+}
+
+.dark-theme .chatArea {
+    background-color: black;
+}
+
+.dark-theme .text {
+    color: #A1A1A1;
+}
+
+.dark-theme .suggestion {
+    background-color: black;
+}
+
+.dark-theme .box1, .dark-theme .box2 {
+    background-color: black;
+    border-color: #125FDE;
+}
+
+.dark-theme .box1:hover, .dark-theme .box2:hover {
+    background-color: #555555;
+}
+
+.dark-theme .promp-box {
+    background-color: black;
+    border-color: #125FDE;
+}
+
+.dark-theme .promp-text {
+    color: #ffffff;
+}
+
+.dark-theme .toggle-button {
+    background-color: black;
+    border: 3px solid #125FDE;
+}
+
+.dark-theme .button {
+    background-color: white;
+    margin: 8px 9px 8px 67px;
+}
+.dark-theme .text-style{
+    color: #A1A1A1;
+}

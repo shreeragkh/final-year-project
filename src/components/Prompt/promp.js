@@ -1,8 +1,8 @@
-import React from 'react'
-import './promp.css'
-import sent_icon from '../../assets/Sent_icon.png'
+import React from 'react';
+import './promp.css';
+import sent_icon from '../../assets/Sent_icon.png';
 
-function promp() {
+function Promp() {
   return (
     <div>
       <div className='promp-box'>
@@ -10,7 +10,7 @@ function promp() {
         <img src={sent_icon} alt='sent_icon'></img>
       </div>
     </div>
-  )
+  );
 }
 
-export default promp
+export default Promp;
