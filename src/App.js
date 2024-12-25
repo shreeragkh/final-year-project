@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavBar from './components/Navbar/NavBar';
 import Promp from './components/Prompt/promp';
-import ChatArea from './components/chatArea/chatArea';
+import ChatArea from './components/chatArea/ChatArea';
 import ToggleButton from './components/ToggleButton/ToggleButton';
 import './App.css';
 import './DarkTheme.css';
