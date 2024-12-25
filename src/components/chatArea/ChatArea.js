@@ -27,7 +27,7 @@ function ChatArea() {
           ))}
         </div>
       )}
-      <Promp setChatHistory={setChatHistory} ChatHistory={chatHistory} />
+       <Promp setChatHistory={setChatHistory} chatHistory={chatHistory} />
     </div>
   );
 }
